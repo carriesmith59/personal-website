@@ -26,19 +26,20 @@ ul.nav-bar {
 li.nav {
   display: inline;
   font-family: 'Raleway', sans-serif;
+  font-size: 14px;
   letter-spacing: 3px;
   color: #373737;
   padding: 0px;
+  margin: 4px;
+
 }
 
 li.nav a {
-  display: block;
   margin-bottom: 4px;
   color: #373737;
   text-decoration: none;
   text-align: center;
-  padding: 10px;
-  border: 1px solid #373737;
+  padding: 6px 10px;
 }
 
 
@@ -94,7 +95,7 @@ hr {
 
 img.headshot {
   width: 60%;
-  margin: 10px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -159,20 +160,6 @@ h6 {
 
 /* GALLERY CSS */
 
-.tz-gallery .thumbnail {
-    padding: 0;
-    margin-bottom: 30px;
-    background-color: #fff;
-    border-radius: 4px;
-    border: none;
-    transition: 0.15s ease-in-out;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
-}
-
-.tz-gallery .thumbnail:hover {
-    transform: translateY(-10px) scale(1.02);
-}
-
 
 @media all and (min-width: 480px){
 
@@ -207,13 +194,6 @@ h6 {
     margin-bottom: 20px;
   }
 
-  img.headshot {
-    width: 90%;
-    position: relative;
-    padding-right: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
 
 
 }
