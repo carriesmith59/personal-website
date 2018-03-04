@@ -7,6 +7,38 @@ body {
   background-color: #f4f4f4;
 }
 
+div.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+div.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.box {
+  flex-basis: 200px;
+  padding: 12px;
+}
+
+div.one {
+  flex-grow: 1;
+}
+
+div.one .headshot {
+  width: 75%;
+  height: auto;
+
+}
+
+div.two {
+  flex-grow: 3;
+  padding: 10px
+}
+
+
 body.page-home {
   background-image: url("../img/home-scene.jpg");
   background-repeat: no-repeat;
@@ -31,7 +63,6 @@ li.nav {
   color: #373737;
   padding: 0px;
   margin: 4px;
-
 }
 
 li.nav a {
@@ -41,8 +72,6 @@ li.nav a {
   text-align: center;
   padding: 6px 10px;
 }
-
-
 
 /*ul {
   width: 200px;
@@ -93,10 +122,6 @@ hr {
   margin-bottom: 14px;
 }
 
-img.headshot {
-  width: 60%;
-  margin-bottom: 20px;
-}
 
 h1 {
   font-family: 'Playfair Display', serif;
@@ -146,19 +171,6 @@ h6 {
   padding: 6px 0px;
   font-weight: 600;
 }
-
-
-
-.row {
-  clear: both;
-  overflow: auto;
-}
-
-.col {
-
-}
-
-/* GALLERY CSS */
 
 
 @media all and (min-width: 480px){
