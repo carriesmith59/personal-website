@@ -9,7 +9,7 @@ body {
 
 div.wrapper {
   width: 100%;
-  max-width: 960px;
+  max-width: 780px;
   margin: 0 auto;
 }
 
@@ -19,25 +19,25 @@ div.flex-container {
 }
 
 div.box {
-  flex-basis: 200px;
   padding: 12px;
 }
 
 div.one {
+  flex-basis: 200px;
   flex-grow: 1;
 }
 
 div.one .headshot {
-  width: 75%;
+  width: 200px;
   height: auto;
-
+  padding-top: 10px;
 }
 
 div.two {
-  flex-grow: 3;
+  flex-basis: 400px;
+  flex-grow: 2;
   padding: 10px
 }
-
 
 body.page-home {
   background-image: url("../img/home-scene.jpg");
@@ -53,6 +53,7 @@ ul.nav-bar {
   list-style-type: none;
   margin: 0px auto;
   padding: 16px;
+  margin-bottom: 20px;
 }
 
 li.nav {
@@ -105,8 +106,8 @@ li.nav a {
 }
 
 img.logo {
-  width: 90%;
-  padding: 10px;
+    width: 90%;
+    padding: 10px;
 }
 
 p {
@@ -175,7 +176,18 @@ h6 {
 
 @media all and (min-width: 480px){
 
-    .nav-home {
+  #header-bg {
+  background-image: url("../img/home-scene.jpg");
+  background-repeat:no-repeat;
+  height:150px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+   }
+
+  .nav-home {
 /*
     position: static;
     transform: translate(0);
@@ -194,12 +206,16 @@ h6 {
 
   .page-home img.logo {
     width: 75%;
-    padding: 10px;
+    padding-top: 10px;
   }
 
   img.logo {
     width: 400px;
-    padding: 20px 0px;
+    padding: 10px 0px;
+  }
+
+  ul.nav-bar {
+    margin-bottom: 40px;
   }
 
   hr {
