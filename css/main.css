@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 20px;
+  padding: 20px 20px 100px 20px;
   background-color: #f4f4f4;
 }
 
@@ -20,6 +20,70 @@ div.flex-container {
 
 div.box {
   padding: 12px;
+}
+
+div.img1 {
+  min-height: 220px;
+  flex-basis: 220px;
+  flex-grow: 1;
+  background-image: url('../img/AS-home_feature-area_study-abroad.png');
+  background-position: center;
+  border: 1px solid #d3d3d3;
+  margin: 8px;
+}
+
+#fullImage1 {
+  display: none;
+}
+
+div.img2 {
+  min-height: 220px;
+  flex-basis: 220px;
+  flex-grow: 1;
+  background-image: url('../img/AS-home_feature-area_Rising-Tide.png');
+  background-position: center;
+  border: 1px solid #d3d3d3;
+  margin: 8px;
+}
+
+div.img3 {
+  min-height: 220px;
+  flex-basis: 220px;
+  flex-grow: 1;
+  background-image: url('../img/Utopia_slider-image.png');
+  background-position: center;
+  border: 1px solid #d3d3d3;
+  margin: 8px;
+}
+
+div.img4 {
+  min-height: 220px;
+  flex-basis: 220px;
+  flex-grow: 1;
+  background-image: url('../img/Bill-Nye_slider-image.png');
+  background-position: center;
+  border: 1px solid #d3d3d3;
+  margin: 8px;
+}
+
+div.img5 {
+  min-height: 220px;
+  flex-basis: 220px;
+  flex-grow: 1;
+  background-image: url('../img/penn-parents-mockup-page.jpg');
+  background-position: center;
+  border: 1px solid #d3d3d3;
+  margin: 8px;
+}
+
+div.img6 {
+  min-height: 220px;
+  flex-basis: 220px;
+  flex-grow: 1;
+  background-image: url('../img/UG-Posters_amira.jpg');
+  background-position: center;
+  border: 1px solid #d3d3d3;
+  margin: 8px;
 }
 
 div.one {
