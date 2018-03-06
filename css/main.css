@@ -120,23 +120,15 @@ div.box img {
   min-height: 220px;
   flex-basis: 220px;
   flex-grow: 1;
+  transition: 1s ease;
 }
 
-
-img.zoom {
-    width: 350px;
-    height: 200px;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-}
-
-.transition {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
+div.box img:hover {
+  transition: 1s ease;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: .5s ease;
 }
 
 
@@ -157,12 +149,10 @@ div.two {
   padding: 10px
 }
 
-
 .page-home img.logo {
   width: 90%;
   padding: 10px;
 }
-
 
 .page-about img.logo {
     width: 90%;
